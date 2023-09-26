@@ -20,16 +20,6 @@ class Person {
     let i = this.hobbies.indexOf(hobby);
     this.hobbies.splice(i, 1);
     this.oldHobby = hobby;
-    /*
-    this.hobbies.forEach((word) => {
-      if (word == hobby) {
-        this.hobbies.splice(this.hobbies.indexOf(word), 1);
-        this.oldHobby = word;
-      } */
-    });
-  }
-  removeHobby() {
-
   }
   greeting() {
     console.log(`Hello World! My Name is ${this.name}.`);
