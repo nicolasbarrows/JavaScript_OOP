@@ -37,13 +37,13 @@ class Coder extends Person {
     this.occupation = "Full Stack Web Developer";
   }
   greeting() {
-    console.log(`greeting(mood) {
-            if (mood == friendly) {
-                console.log("Hello, Friend! My Name is ${this.name}");
-            } else {
-                console.log("Hi.")
-            }
-        }`);
+    console.log(`function greeting(mood) {
+        if (mood == friendly) {
+            console.log("Hello, Friend! My Name is ${this.name}");
+        } else {
+            console.log("Hi.")
+        }
+    }`);
   }
 }
 
@@ -66,7 +66,8 @@ let john = new Coder("John", 0, "Birmingham, AL", [
 ]);
 console.log(john);
 john.addHobby("Warzone");
-john.removeHobby("Dungeons & Dragons");
+console.log(john);
+john.removeHobby("Eating Oreo Cookies");
 console.log(john);
 console.log(john.greeting());
 
