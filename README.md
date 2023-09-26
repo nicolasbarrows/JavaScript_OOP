@@ -51,10 +51,14 @@ In this final exercise, we'll create a class that has the functionality of a bas
 1. Create a class called `Calculator`
 2. Initialize a `result` property within the calculator `constructor` with an initial value of `0`
 3. Declare methods on the class that represent basic arithmetic: `add()`, `subtract()`, `multiply()`, `divide()`
-  - These methods should currently take in 2 parameters, and assign the result of the appropriate arithmetic based on the method name to the object's `result` property
-  - Should return the result
-  - EXTRA: if only one value is passed in, use the object's current `result` value as the first value in the operation
+
+- These methods should currently take in 2 parameters, and assign the result of the appropriate arithmetic based on the method name to the object's `result` property
+- Should return the result
+- EXTRA: if only one value is passed in, use the object's current `result` value as the first value in the operation
+
 4. Declare a method called `displayResult()` that will `console.log` the result property stored on the object
 5. Test your work by instantiating an object from your class (using the class constructor), and calling some of the calculator methods
 
 ---
+
+
